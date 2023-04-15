@@ -22,6 +22,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *   }
  * }
  */
+
 function removeKFromList(list, k) {
   if(list.value === k) list = list.next;
 
